@@ -21,6 +21,9 @@
     <object>objects\obj_shoot</object>
     <object>objects\obj_actor</object>
   </objects>
+  <rooms name="rooms">
+    <room>rooms\rm_test</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
