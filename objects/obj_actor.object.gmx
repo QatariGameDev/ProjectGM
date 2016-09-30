@@ -83,7 +83,7 @@ image_xscale = -1;
 }
 
 //Jump Action
-if (place_meeting(x,y+1,obj_block))
+if (place_meeting(x,y+1,obj_block)) &amp;&amp; (keyboard_check_pressed(ord('Z')))
 {
 vspeed = -jump;
 }
