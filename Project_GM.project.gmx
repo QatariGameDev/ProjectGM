@@ -9,12 +9,18 @@
     <sprite>sprites\spr_ball</sprite>
     <sprite>sprites\spr_boxguy</sprite>
     <sprite>sprites\spr_block</sprite>
+    <sprite>sprites\spr_shoot</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\scr_dmg_strike.gml</script>
   </scripts>
+  <objects name="objects">
+    <object>objects\obj_block</object>
+    <object>objects\obj_shoot</object>
+    <object>objects\obj_actor</object>
+  </objects>
   <help>
     <rtf>help.rtf</rtf>
   </help>
