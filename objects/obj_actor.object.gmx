@@ -82,6 +82,7 @@ image_xscale = -1;
 }
 
 //Jump Action
+
 if (place_meeting(x,y+1,obj_block)) &amp;&amp; (keyboard_check_pressed(ord('Z')))
 {
 vspeed = -jump;
@@ -148,7 +149,7 @@ speed = (8 * other.image_xscale);
           <argument>
             <kind>1</kind>
             <string>///stand on the block
-move_contact_solid(direction,speed);
+move_contact_solid(direction,jump);
 vspeed = 0;
 </string>
           </argument>
